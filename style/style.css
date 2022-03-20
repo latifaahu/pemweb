@@ -15,6 +15,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  color: black;
 }
 .logo {
   height: 30px;
@@ -289,7 +290,7 @@ b {
   background: #e8e9e9;
   width: 54%;
   border-radius: 20px;
-  padding: 30px 2%;
+  padding: 20px 2%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -305,4 +306,11 @@ b {
   padding: 0;
   gap: 25px;
   justify-content: center;
+}
+.article span {
+  font-size: 8pt;
+}
+.article p {
+  font-size: 11pt;
+  text-align: justify;
 }
