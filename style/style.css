@@ -146,6 +146,10 @@ h2 {
 .container {
   width: 100%;
 }
+.home img {
+  width: 100%;
+  height: auto;
+}
 .grid-container {
   display: grid;
   grid-template-columns: 31.5% 31.5% 31.5%;
