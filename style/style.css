@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  background-color: #f5f5f5;
+}
+.logo-container {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+  margin: 0px 10px 0px 0px;
+}
+a,
+li {
+  text-decoration: none;
+}
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+  position: fixed;
+  background-color: white;
+  z-index: 5;
+}
+footer {
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  margin-top: 100px;
+  background: #464441;
+  color: #fff;
+  padding-top: 20px;
+}
+footer p {
+  font-size: 10px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  font-size: 10pt;
+  list-style: none;
+  display: inline-block;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  padding: 5px 10px;
+  margin-top: 1px;
+  color: black;
+}
+.navbar a:hover {
+  background-color: #d4dca2;
+  border: none;
+  border-radius: 8px;
+}
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+  padding: 5px 5px;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.dropdown:hover {
+  background-color: #d4dca2;
+  border-radius: 8px;
+  padding: 5px 5px;
+  transition: all 0.3s ease 0s;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 8px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  font-size: 10pt;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: all 0.3s ease 0s;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #efefef;
+  border-radius: 8px;
+  transition: all 300ms ease;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+section {
+  padding-top: 5rem;
+}
+h2 {
+  font-size: 24pt;
+  color: #536b67;
+  font-weight: bold;
+  text-align: center;
+}
+.container {
+  width: 100%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 31.5% 31.5% 31.5%;
+  padding: 10px 110px;
+  gap: 25px;
+}
+#ekskul a {
+  color: white;
+  font-size: 13pt;
+  font-weight: 500;
+}
+.grid-container a:hover {
+  transition: all 300ms ease;
+  transform: scale(1.02);
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.grid-item {
+  padding: 20px 15px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  display: block;
+}
+#ekskul .grid-item {
+  padding: 40px 0;
+}
+.card {
+  border-radius: 18px;
+  background-color: white;
+  text-align: center;
+  padding: 0;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 0px 30px;
+}
+.card hr {
+  width: 70%;
+  border: 1.4px solid #656953;
+  border-radius: 5px;
+}
+#alumni img {
+  width: 50%;
+  height: auto;
+  border-radius: 100%;
+  margin: 20px;
+}
+.card-text {
+  padding-bottom: 10px;
+}
+.card-text h4 {
+  margin-top: -2px;
+  margin-bottom: 0;
+}
+.card-text span {
+  font-size: 8pt;
+  opacity: 70%;
+}
+.card-text p {
+  margin-top: 2px;
+  font-size: 9pt;
+}
+.card-stats {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #656953;
+  height: 40px;
+}
+.card-stats p {
+  color: white;
+  font-size: 8pt;
+  margin-top: 5px;
+  padding: 10px;
+}
+.card:hover {
+  transform: scale(1.09);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.row {
+  display: flex;
+  padding: 10px 25%;
+  gap: 25px;
+  justify-content: center;
+}
+.name-school {
+  position: relative;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+hr {
+  margin: 0 auto;
+  width: 60%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+.tabel {
+  padding: 10px 110px;
+}
+thead {
+  text-align: left;
+}
+th,
+td {
+  padding-left: 30px;
+}
+td:first-child,
+th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+td:last-child,
+th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+table tr:nth-child(even) {
+  background-color: #eae8e3;
+}
+th {
+  font-size: 11pt;
+  color: white;
+  font-weight: 400;
+  background-color: #b0a79b;
+}
+tbody {
+  font-size: 10pt;
+}
+tbody tr:hover {
+  background-color: #e2e0d9;
+}
+h5 {
+  font-size: 14pt;
+}
+.name-school p,
+b {
+  text-align: left;
+  font-size: 9pt;
+}
+.article {
+  background: #e8e9e9;
+  width: 54%;
+  border-radius: 20px;
+  padding: 30px 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.article img {
+  width: 100%;
+  height: auto;
+}
+.col {
+  width: 100%;
+}
+.article .row {
+  display: flex;
+  padding: 0;
+  gap: 25px;
+  justify-content: center;
+}
