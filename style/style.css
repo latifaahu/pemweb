@@ -343,7 +343,8 @@ b {
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
-#berita .grid-item {
+#berita .grid-item,
+#prestasi .grid-item {
   padding: 0;
   border: none;
   border-radius: 10px;
@@ -352,7 +353,15 @@ b {
   display: block;
   background-color: white;
 }
-#berita .card-text {
+#berita .card-text,
+#prestasi .card-text {
   padding: 15px;
   color: black;
+}
+#prestasi img {
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+.tabel-about td {
+  padding: 0;
 }
