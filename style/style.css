@@ -259,18 +259,18 @@ th,
 td {
   padding-left: 30px;
 }
-td:first-child,
-th:first-child {
+.tabel td:first-child,
+.tabel th:first-child {
   border-radius: 10px 0 0 10px;
 }
-td:last-child,
-th:last-child {
+.tabel td:last-child,
+.tabel th:last-child {
   border-radius: 0 10px 10px 0;
 }
-table tr:nth-child(even) {
+.tabel table tr:nth-child(even) {
   background-color: #eae8e3;
 }
-th {
+.tabel th {
   font-size: 11pt;
   color: white;
   font-weight: 400;
@@ -279,7 +279,7 @@ th {
 tbody {
   font-size: 10pt;
 }
-tbody tr:hover {
+.tabel tbody tr:hover {
   background-color: #e2e0d9;
 }
 h5 {
