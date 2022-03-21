@@ -206,7 +206,8 @@ h2 {
   margin-top: -2px;
   margin-bottom: 0;
 }
-.card-text span {
+.card-text span,
+.text-sambutan span {
   font-size: 8pt;
   opacity: 70%;
 }
@@ -249,7 +250,8 @@ hr {
   height: 1px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
-.tabel {
+.tabel,
+#sambutan .row {
   padding: 10px 110px;
 }
 thead {
@@ -317,4 +319,40 @@ b {
 .article p {
   font-size: 11pt;
   text-align: justify;
+}
+.img-sambutan {
+  width: 45%;
+}
+.img-sambutan img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+.text-sambutan {
+  width: 100%;
+  text-align: justify;
+  margin: 0;
+}
+.text-sambutan p {
+  font-size: 10pt;
+}
+.text-sambutan h4 {
+  margin: 0;
+}
+#berita img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+#berita .grid-item {
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  display: block;
+  background-color: white;
+}
+#berita .card-text {
+  padding: 15px;
+  color: black;
 }
