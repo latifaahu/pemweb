@@ -281,9 +281,9 @@ td {
 tbody {
   font-size: 10pt;
 }
-.tabel tbody tr:hover {
+/* .tabel tbody tr:hover {
   background-color: #e2e0d9;
-}
+} */
 h5 {
   font-size: 14pt;
 }
