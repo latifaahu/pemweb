@@ -1,0 +1,96 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 12% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  height: auto;
+  border-radius: 10px;
+}
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+th,
+td {
+  text-align: center;
+  padding-left: 10px;
+  font-size: 11pt;
+}
+.nilai-krs th {
+  text-align: center;
+  padding: 3px 10px;
+  font-size: 11pt;
+}
+.nilai-krs td {
+  padding: 3px 10px;
+}
+#nama-matkul,
+#nama-matkul2 {
+  text-align: left;
+  margin-left: 5px;
+}
+th.th-mk {
+  width: 50%;
+}
+.tabel .tabel-krs td:first-child,
+.tabel .tabel-krs th:first-child {
+  border-radius: 7px 0 0 7px;
+}
+.tabel .tabel-krs td:last-child,
+.tabel .tabel-krs th:last-child {
+  border-radius: 0 7px 7px 0;
+}
+.tabel .tabel-krs table tr:nth-child(even) {
+  background-color: #eae8e3;
+}
+.tabel .tabel-krs th {
+  font-size: 11pt;
+  color: white;
+  font-weight: 400;
+  background-color: #b0a79b;
+}
+
+.btn-nilai {
+  border-radius: 5px;
+  border: none;
+  background-color: #9ece2e;
+  padding: 7px;
+  color: white;
+  cursor: pointer;
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-nilai:hover {
+  background-color: #8db829;
+}
+.btn-nilai:active {
+  background-color: #b7ed39;
+}
